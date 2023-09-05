@@ -1,0 +1,256 @@
+@import url(../CSS/global.css);
+
+
+body{
+    background-color: black;
+}
+
+p{
+    color: #FFF;
+}
+
+h1, h2, span {
+    color: rgba(59, 161, 205, 1) ;
+}
+
+
+
+.banner{
+    padding: 60px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(./assets/images/banner.png);
+    background-size: cover;
+    max-height: 605px;
+    border-bottom: 1px solid #33a8db80;
+    
+    
+    
+}
+
+.banner-content{
+
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 600px;
+}
+
+.banner-content p {
+    font-size: 20px;
+}
+
+.logo {
+   
+    background-color: rgba(0, 0, 0, 0.212);
+    border-radius: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.titulo{
+    
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    
+}
+
+#paragrafo1{
+    
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+button{
+   
+    padding: 19px 91px;
+    gap: 31px;
+    border: 2px solid;
+    color: rgba(59, 161, 205, 1);
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text; 
+    color: #31A8DD;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    size: 16px;
+    line-height: normal;
+    letter-spacing: 3.36px;
+    line-height: 18.78px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    
+}
+
+a{
+    width: 234px;
+    height: 19px;
+    text-decoration: none;
+    
+    
+    
+    
+}
+
+main{
+    
+    background: #000;
+    text-align: center;
+    align-items: center;
+   
+}
+
+#course-content{
+
+    
+    gap: 24px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+    
+    
+}
+
+#titulo2{
+    
+    color: #33A8DB;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+}
+
+.paragrafo2{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.module-list{
+
+    gap: 24px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    
+    
+
+}
+
+.module {
+    color: white;
+}
+.module{
+       
+       padding: 16px 127px;
+       justify-content: center;
+       text-align: center;
+       gap: 10px;
+       border: 1px solid #33A8DB;
+       border-radius: 57px;       
+       background: #252525;
+       box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+       margin-top: 24px;
+       margin-bottom: 24px;
+       
+       
+
+
+}
+
+#transform-world{
+    
+    
+    border-top: 1px solid #33a8db80;;
+    padding: 200px;
+    background-image: url("../images/woman-code.png");
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+
+
+}
+
+#transform-world p{
+    
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-shadow: 3px 2px #33A8DB;
+    text-transform: lowercase;
+    max-width: 245px;
+  }
+
+#professional-challenges{
+    text-align: center;
+    margin: 100px auto;
+    width: 800px;
+}
+
+#paragrafo3{
+        
+        color: #33A8DB;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 6.08px;
+}
+
+
+
+
+footer{
+
+    padding: 50px;
+    border-top: 1px solid rgba(51, 168, 219, 1);
+    text-align: center;
+    background-image: linear-gradient(rgba(51,168,219,0.0), rgba(51,168,219,0.2));
+}
+
+}
+
+.dio-logo{
+    width: 310px;
+    height: 44px;
+    flex-shrink: 0;
+
+}
